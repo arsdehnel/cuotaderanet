@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.|dev.|test.)?cuotadera.net$
+RewriteRule ^(/)?$ frontend/web [L]

@@ -1,16 +1,13 @@
 {
-	"name": "yiisoft/yii2-app-advanced",
-	"description": "Yii 2 Advanced Application Template",
-	"keywords": ["yii", "framework", "advanced", "application template"],
-	"homepage": "http://www.yiiframework.com/",
+	"name": "cuotadera",
+	"description": "Cuotadera -- a community for woodworkers",
+	"keywords": ["cuotadera", "woodworking", "community"],
+	"homepage": "http://www.cuotadera.net/",
 	"type": "project",
 	"license": "BSD-3-Clause",
 	"support": {
-		"issues": "https://github.com/yiisoft/yii2/issues?state=open",
-		"forum": "http://www.yiiframework.com/forum/",
-		"wiki": "http://www.yiiframework.com/wiki/",
-		"irc": "irc://irc.freenode.net/yii",
-		"source": "https://github.com/yiisoft/yii2"
+		"issues": "https://github.com/arsdehnel/cuotaderanet/issues?state=open",
+		"source": "https://github.com/arsdehnel/cuotaderanet"
 	},
 	"minimum-stability": "alpha",
 	"require": {

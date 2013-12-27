@@ -20,9 +20,9 @@ return [
 
 	'components.db' => [
 		'class' => 'yii\db\Connection',
-		'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
-		'username' => 'root',
-		'password' => '',
+		'dsn' => 'mysql:host=localhost;dbname=cuotaderanet',
+		'username' => 'cuotaderanet',
+		'password' => 'ZN5u6PcZ5TetSFKL',
 		'charset' => 'utf8',
 	],
 ];
