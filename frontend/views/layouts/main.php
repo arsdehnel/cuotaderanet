@@ -19,12 +19,13 @@ AppAsset::register($this);
 	<meta charset="<?= Yii::$app->charset ?>"/>
 	<title><?= Html::encode($this->title) ?></title>
 	<?php $this->head() ?>
+	<link href='http://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<?php $this->beginBody() ?>
 	<?php
 		NavBar::begin([
-			'brandLabel' => 'My Company',
+			'brandLabel' => 'Cuotadera',
 			'brandUrl' => Yii::$app->homeUrl,
 			'options' => [
 				'class' => 'navbar-inverse navbar-fixed-top',
@@ -48,17 +49,17 @@ AppAsset::register($this);
 		NavBar::end();
 	?>
 
-	<div class="container">
+	<main class="container">
 	<?= Breadcrumbs::widget([
 		'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
 	]) ?>
 	<?= Alert::widget() ?>
 	<?= $content ?>
-	</div>
+	</main>
 
 	<footer class="footer">
 		<div class="container">
-		<p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+		<p class="pull-left">&copy; cuotadera.net <?= date('Y') ?></p>
 		<p class="pull-right"><?= Yii::powered() ?></p>
 		</div>
 	</footer>

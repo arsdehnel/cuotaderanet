@@ -1,12 +1,13 @@
 body {
-  padding-top: 70px;
+  background: url(/frontend/web/images/bg-body.png) repeat;
 }
 
 .footer {
-  border-top: 1px solid #ddd;
-  margin-top: 30px;
-  padding-top: 15px;
+  border-top: 1px solid black;
   padding-bottom: 30px;
+  padding-top: 10px;
+  background-color: rgba(255, 201, 132, .8);
+  min-height: 120px;
 }
 
 .jumbotron {
@@ -16,6 +17,7 @@ body {
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
+  font-family: 'Homenaje', sans-serif;
 }
 
 /* add sorting icons to gridview sort links */
@@ -38,3 +40,32 @@ a.desc:after { content: /*"\e114"*/"\e152"; }
 
 .sort-ordinal a.asc:after { content: "\e155"; }
 .sort-ordinal a.desc:after { content: "\e156"; }
+
+.navbar-brand{
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url(/frontend/web/images/header.png);
+  width: 348px;
+  height: 78px;
+}
+.navbar-default{
+  border-bottom: 1px dashed rgba(255, 201, 132, .7);
+  background: rgb(51, 19, 6);
+  
+}
+.navbar-default .container{
+  background-color: rgba( 255, 255, 255, .2 );
+  position: relative;
+}
+.navbar-default .navbar-nav{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+main.container{
+  margin-top: 70px;
+  background-color: rgba(255, 240, 222, 0.9) ;
+  min-height: 500px;
+}
