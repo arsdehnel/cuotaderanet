@@ -1,5 +1,6 @@
 body {
   background: url(/frontend/web/images/bg-body.png) repeat;
+  box-shadow: inset 0 0 40px rgb(0, 0, 0);
 }
 
 .footer {
