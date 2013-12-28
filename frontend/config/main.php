@@ -14,6 +14,7 @@ return [
 	'vendorPath' => $rootDir . '/vendor',
 	'controllerNamespace' => 'frontend\controllers',
 	'modules' => [
+		'debug' => 'yii\debug\Module',
 		'gii' => 'yii\gii\Module'
 	],
 	'extensions' => require($rootDir . '/vendor/yiisoft/extensions.php'),
@@ -35,6 +36,11 @@ return [
 		],
 		'errorHandler' => [
 			'errorAction' => 'site/error',
+		],
+		'urlManager' => [
+			'class' => 'yii\web\UrlManager',
+			'showScriptName' => false,
+			'enablePrettyUrl' => true
 		],
 	],
 	'params' => $params,
